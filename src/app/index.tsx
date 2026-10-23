@@ -28,6 +28,7 @@ export default function Index() {
       <Pressable style={styles.button} onPress={() => setCount(count + 1)}>
         <Text style={styles.buttonText}>Tapped {count} times</Text>
       </Pressable>
+      <Text style={styles.footer}>Made by Daniella</Text>
     </View>
   );
 }
@@ -56,4 +57,5 @@ const styles = StyleSheet.create({
     borderRadius: 10,
   },
   buttonText: { color: "#fff", fontWeight: "600" },
+  footer: { color: "#666", fontSize: 12 },
 });
